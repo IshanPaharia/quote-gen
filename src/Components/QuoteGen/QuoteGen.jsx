@@ -6,8 +6,8 @@ import github_icon from "../Assets/github-142-svgrepo-com.svg";
 const QuoteGen = () => {
   const [quotes, setQuotes] = useState([]);
   const [quote, setQuote] = useState({
-    quote: "Test",
-    author: "LMAO",
+    quote: "Random qoute here, Press Reload",
+    author: "Ishan Paharia",
   });
 
   const random = () => {
